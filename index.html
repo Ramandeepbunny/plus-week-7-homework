@@ -9,19 +9,39 @@
 <body>
   <div class="weather-app">
   <header>
-    <form>
-    <input "search"  placeholder="Enter a City..." required />
-    <input type="submit" value="search" />
+    <form id="search-form">
+    <input class="search" id="search-Input" type="search"  placeholder="Enter a City..." required />
+    <input class="submit" type="submit" value="search" />
     </form>
     <main>
-      <h1> Paris</h1>
-      <p>
-        Thursday 16:59, few clouds
+      <div class="emoji">
+          ⛅
+       </div>
+
+      <div class="temp">
+        <strong>12<sup class="degree">°C </sup></strong>
+       
+      </div>  
+
+      <div class="description">
+            couldly
+      </div>
+      
+      <h1> <strong>Paris </strong></h1> 
+        <p class="time">
+        Thursday 16:59
+        </p>
         <br />
-Humidity: 85%, Wind: 3.09km/h
-      </p>
-      <div>
-          ⛅12°C
+      <div class="Humidity-wind">
+          
+          Humidity:
+          </br>
+          80%,
+        <div> 
+         Wind: 
+          </br>
+          3.09km/h
+        </div>
       </div>
     </main>
   </header>
@@ -31,5 +51,6 @@ Humidity: 85%, Wind: 3.09km/h
     <a href="#" target="_blank"> open-sourced on GitHub</a> and
     <a href="#" target="_blank">hosted on netlify</a>
   </footer>
+  <script src="index.js"></</script>
 </body>
 </html>

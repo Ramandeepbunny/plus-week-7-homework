@@ -1,11 +1,10 @@
 body{
-  background: linear-gradient(68.1deg, rgb(248, 205, 205) -0.3%, rgb(149, 170, 211) 100.7%);
-
+  background: radial-gradient(circle at 10% 20%, rgb(166, 226, 229) 0%, rgb(198, 232, 221) 100.2%);
 }
 .weather-app{
-  background-image: url('https://i.imghippo.com/files/dZgF6102B.jpg');
-  background-size: 460px 660px;
-max-width: 400px;
+  background-image: url('https://i.imghippo.com/files/QAX2831x.png');
+  background-size: 529px 659px;
+max-width: 470px;
 height: 600px;
 margin: 30px auto 30px;
 padding: 30px;
@@ -13,7 +12,84 @@ box-shadow: 15px 15px 9px rgba(65, 50, 100, 0.15);
 border-radius: 3%;
 }
 form{
-  margin: auto;
-  padding-bottom: 10px;
-  background-color: aqua;
+  margin: 10px 10px 0px 28px;
 }
+.search{
+  width: 340px;
+  margin-right: 10px;
+  margin-top: 0px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #fffade;
+  border: none;
+  border-radius: 20px;
+
+}
+.submit{
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fffade;
+  border-color: white;
+}
+.emoji{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 100px;
+  }
+  .temp{
+    
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    color: white;
+  }
+  .degree{
+    font-size: 35px;
+    margin-left: 0px;
+  
+  }
+  
+  .description{
+    text-align: center;
+    color:white;
+    margin-top: 0px;
+  }
+ 
+h1{
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+}
+.time{
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  
+  }
+  .Humidity-wind{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: px;
+
+  }
+
+  footer{
+    margin-top: 60px;
+    color: white;
+    font-size: 12px;
+  }
