@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   <title>weather app</title>
 </head>
 <body>
@@ -19,10 +20,10 @@
       </div>
 
       <div class="temp">
-        <strong>12<sup class="degree">°C </sup></strong>
+        <strong><span id="temp">12</span><sup class="degree">°F </sup></strong>
       </div>  
 
-      <div class="description">
+      <div class="description" id="description">
             couldly
       </div>
       
@@ -38,13 +39,17 @@
         <div class="Humidity-wind">
           Humidity:
         </br>
-             80%,
+          <div>
+            <span id="Humidity"> 
+            80%
+            </span>
+          </div>
           <div> 
             Wind: 
        </br>
-           3.09km/h
+           <span id="Wind">3.09km/h</span>
           </div>
-       </div>
+      </div>
 
     </main>
   </header>

@@ -4,12 +4,12 @@ body{
 .weather-app{
   background-image: url('https://i.imghippo.com/files/QAX2831x.png');
   background-size: 529px 659px;
-max-width: 470px;
-height: 600px;
-margin: 30px auto 30px;
-padding: 30px;
-box-shadow: 15px 15px 9px rgba(65, 50, 100, 0.15);
-border-radius: 3%;
+  max-width: 470px;
+  height: 600px;
+  margin: 30px auto 30px;
+  padding: 30px;
+  box-shadow: 15px 15px 9px rgba(65, 50, 100, 0.15);
+  border-radius: 3%;
 }
 form{
   margin: 10px 10px 0px 28px;
