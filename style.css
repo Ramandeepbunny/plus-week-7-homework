@@ -22,8 +22,9 @@ form{
   padding-bottom: 15px;
   padding-top: 15px;
   background-color: #fffade;
-  border: none;
+  border-width: 2px;
   border-radius: 20px;
+  border-color: rgba(100, 100, 100, 0.559);
 
 }
 .submit{
@@ -32,16 +33,19 @@ form{
   padding-top: 15px;
   padding-right: 15px;
   padding-left: 15px;
-  border: none;
   border-radius: 20px;
   background-color: #fffade;
-  border-color: white;
+  border-width: 2px;
+  border-color: rgba(100, 100, 100, 0.559);
 }
-.emoji{
-  text-align: center;
+  img{
+  display: block;
+  MARGIN:auto;
   margin-top: 10px;
   margin-bottom: 0px;
-  font-size: 100px;
+  max-width: 120px;
+  height: 120px;
+
   }
   .temp{
     
@@ -89,7 +93,7 @@ h1{
   }
 
   footer{
-    margin-top: 60px;
+    margin-top: 78px;
     color: white;
     font-size: 12px;
   }
