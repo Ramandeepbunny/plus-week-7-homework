@@ -28,6 +28,8 @@ function refreshWeather(response) {
   let iconElement = document.querySelector("#emoji");
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
+  let hour = date.getHours();
+  
   
   timeElement.innerHTML = formatDate(date);
   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="emoji" />`;
@@ -36,7 +38,6 @@ function refreshWeather(response) {
   temperatureElement.innerHTML = Math.round(temperature);
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
 }
-
 
 function searchcity(city) {
   let apiKey = "60c3d936b5fef44at07f1bcc18a1ob97";
@@ -56,6 +57,12 @@ function SearchSubmit(event) {
 let searchFormElement =  document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", SearchSubmit);
 
-function backgroundColor(color) {
-  if formatDate(date) =
-}
+
+
+
+
+
+
+
+
+
